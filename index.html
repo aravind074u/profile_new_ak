@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="port.css">
+    <style>
+    @media only screen and (max-width: 768px) {
+        body{
+            width: 100%;
+            padding: 0;
+        }
+    .nav ul {
+        flex-direction: column;
+        margin-left: 0;
+        padding: 0px;
+        height: 90px;
+    }
+
+    .nav ul li {
+        padding-left: 0;
+        padding-top: 5px;
+    }
+
+    .skills div {
+        flex-basis: 45%;
+        margin: 10px;
+        font-size: 12px;
+        line-height: normal;
+
+    }
+    .pic{
+        padding: 10px 10px;
+        width: 60px;
+        height:auto;
+    }
+    .topic{
+        margin-top: 170px;
+    }
+    .skills{
+        margin-top: 70px;
+    }
+    
+    .project-card-1, .project-card-2, .project-card-3 {
+        width: 90%;
+        margin-left: 5%;
+        flex-direction: column;
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    .project-card-2 {
+        margin-left: 5%;
+    }
+
+    .text {
+        float: none;
+        margin: 20px auto;
+        width: 90%;
+        font-size: 14px;
+        line-height: normal;
+    }
+    .myimg{
+        width: 400px;
+        height: 300px;
+        border-radius: 100px;
+    }
+    .footer-container{
+        font-size: 14px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 480px) {
+    .header {
+        width: 100%;
+    }
+    .nav {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center; 
+    }
+
+    .nav ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        margin: 0; 
+        width: 100%; 
+        list-style: none;
+    }
+
+    .nav ul li {
+        padding: 5px 0;
+        width: 100%; 
+        text-align: center;
+    }
+
+    .skills {
+       margin-top: 80px;
+    }
+
+    .topic {
+        padding: 0;
+        margin-top: 190px;
+    }
+
+    .skills div {
+        flex-basis: 100%; 
+        width: 150px;
+        height: 150%;
+    }
+    .project-card-1, .project-card-2, .project-card-3 {
+        width: 100%;
+        margin-left: 0;
+        padding: 10px;
+        flex-direction: column;
+    }
+    .text {
+        float: none;
+        margin: 20px auto;
+        width: 100%;
+    }
+
+    .myimg {
+        width: 100%;
+        height: auto;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header-title"></h1>
+        <nav class="nav">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="section">
+        <div class="content">
+        <div class="text">
+           <fieldset>
+        <legend><h1>About Me</h1></legend>
+        <p>Welcome to my portfolio! I am a web developer with a passion for creating beautiful and functional <br>websites.
+        I am a passionate and motivated web developer with a strong foundation in front-end and<br> back-end technologies.
+        As a recent graduate, I have hands-on experience in HTML, CSS, JavaScript,<br> and various frameworks such 
+        django and laravel. I am eager to leverage my skills in creating dynamic<br> and responsive websites and applications.
+        With a keen eye for detail and a commitment to continuous <br>learning, I am ready to contribute to innovative 
+        web development projects and grow within a collaborative<br> team environment.
+        </p></fieldset></div>
+        <div class="image">
+            <img src="STR_1976.JPG" class="myimg" alt="">
+        </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <h1 class="topic">SKILLS</h1>
+        <div class="skills">
+            <div>
+                <img src="html-logo.png" class="pic" alt="">
+                <h1>Web Technology</h1>
+                <p>I have a strong command of HTML, which I use to structure and build responsive, accessible web pages.
+                     My experience includes creating clean, semantic markup that serves as the foundation for effective web design. 
+                    I ensure that my HTML code follows best practices to enhance both SEO and user experience.</p>
+            </div>
+            <div>
+                <img src="CSS-Logo.png"  class="pic"alt="">
+                <h1>CSS</h1>
+                <p>I excel in using CSS to design visually appealing and responsive web interfaces.
+                     My skills include creating flexible layouts, animations, and styling elements that enhance user experience. 
+                     I am adept at implementing modern CSS techniques, including Flexbox, Grid, and media queries,
+                     to ensure that my designs work seamlessly across all devices.</p>
+            </div>
+            <div>
+                <img src="javascript-icon-36.png"  class="pic"alt="">
+                <h1>JAVA SCRIPT</h1>
+                <p>I am skilled in JavaScript, using it to create interactive and dynamic web experiences.
+                     My expertise includes manipulating the DOM, handling events, and working with APIs to enhance functionality.
+                      I am also experienced in using modern JavaScript frameworks and libraries, 
+                    such as and jQuery, to build responsive, user-friendly interfaces.</p>
+            </div>
+            <div>
+                <img src="php_PNG43.png"  class="pic"alt="">
+                <h1>PHP </h1>
+                <p>I am proficient in PHP, with a strong understanding of database connectivity, 
+                    object-oriented programming (OOP), and core concepts such as variables and functions. 
+                    I leverage PHP to build robust backend solutions and manage data effectively with MySQL. 
+                    My expertise includes creating secure, efficient database interactions and developing scalable web applications.</p>
+            </div>
+            <div>
+                <img src="python-logo-png-open-2000.png" class="pic" alt="">
+                <h1>PYTHON </h1>
+                <p>I have extensive experience with Python, including working with the Django framework
+                     to build dynamic and scalable web applications. My knowledge encompasses core Python
+                      concepts like object-oriented programming (OOP), variables, functions, and more.
+                      Django allows me to efficiently manage backend development,
+                     create RESTful APIs, and implement robust authentication systems.</p>
+            </div>
+            <div>
+                <img src="mysql_PNG23.png" class="pic" alt="">
+                <h1>MYSQL</h1>
+                <p> I am proficient in MySQL, using it to design and manage efficient, scalable databases for web applications. 
+                    My expertise includes writing complex queries, optimizing database performance, and ensuring data integrity.
+                    I am skilled in database design, normalization, and handling large datasets, making MySQL a key component in my development process.</p>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="projects">
+        <div data-aos="fade-up" class="project-card-1">
+            <h3>SMART AGRICULTURE NEUTRALIZE CROPS CULTIVATION PRICE INFLATION AND DEFLATION</h3>
+            <p>In India 54% of the total work force involving in agriculture. Farmers are spread in all the states of India and cultivating different types of crops from the different geographical area . 
+                Such farmers well known in advance what crops are suitable to cultivate in a particular season, but farmers may not know in advance, in final harvest which crops will be increase or decrease in productivity. 
+                Surely increased productivity of crops leads to inflation in price for a particular crops and decreased productivity of crops leads to deflation in price for a particular crops . The true reason is farmers may not know the details of crops cultivating in different locations because of farmers are sprawling across the country.
+                So our web application Smart Agriculture for Neutralize Crops Cultivation Price Inflation and Deflation will help the farmers know in advance what crops are cultivating in a particular district.
+                </p>
+        </div>
+        <div data-aos="zoom-in-up" class="project-card-2">
+            <h3>ELECTRICITY BILL GENERATING SYSTEM</h3>
+            <p>
+                The electricity bill generation system is a web-based application designed to streamline the process of calculating and issuing electricity bills for utility companies. Built using PHP and MySQL, the system offers a robust and scalable solution to manage customer data, track electricity usage, and apply tariff rates to generate accurate billing statements.
+                The application allows administrators to manage customer profiles, record meter readings, and define different tariff plans based on consumption slabs. The system automatically calculates the bill amount based on the recorded usage and applicable rates, generating detailed billing statements that can be reviewed and printed. Additionally, the system provides features for user authentication, ensuring secure access to billing data and administrative functionalities.
+                By automating the bill generation process, the system reduces manual errors, improves efficiency, and provides a transparent way for customers to understand their electricity consumption and corresponding charges. This solution is suitable for small to medium-sized utility companies looking to modernize their billing operations.</p>
+        </div>
+        <div data-aos="zoom-in-up"class="project-card-3">
+            <h3>HOSPITAL MANAGEMENT SYSTEM</h3>
+            <p>
+                The hospital management system is a comprehensive web-based application designed to facilitate the efficient management of hospital operations. Utilizing a combination of HTML, CSS, JavaScript for the front-end, and PHP with MySQL for the back-end, this system provides a user-friendly interface and robust functionality to streamline various administrative and clinical processes within a hospital.
+                The system covers a wide range of features, including patient registration, appointment scheduling, doctor and staff management, billing, and medical records management. Patients can register online, book appointments with doctors, and access their medical records. Hospital administrators can manage doctor schedules, track patient admissions, and discharge processes, and generate bills.
+                The use of PHP and MySQL ensures secure data handling and storage, while JavaScript enhances the interactivity and responsiveness of the application. The system is designed to improve the operational efficiency of hospitals by automating routine tasks, reducing paperwork, and ensuring accurate record-keeping. This project is ideal for hospitals looking to upgrade their management processes and provide better services to patients and staff alike.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="">
+        <div class="contact">
+        <footer>
+    <div class="footer-container">
+        <div class="footer-about">
+            <h3>About Me</h3>
+            <p>Your brief bio goes here. Share something interesting about yourself or your work.</p>
+        </div>
+        <div class="footer-social">
+            <h3>Follow Me</h3>
+            <ul>
+                <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+                <li><a href="https://www.linkedin.com/in/aravind-p07?" target="_blank">LinkedIn</a></li>
+                <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+            </ul>
+        </div>
+        <div class="footer-contact">
+            <h3>Contact</h3>
+            <ul>
+                <li><a href="email:aravindaravindu07@gmail.com">aravindaravindu07@gmail.com</a></li>
+                <li><a href="tel:+91 7397503742">+91 7397 503 742</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Aravind.P. All Rights Reserved.</p>
+    </div>
+</footer>            
+    </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
